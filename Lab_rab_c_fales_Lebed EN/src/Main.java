@@ -8,7 +8,8 @@ public class Main {
             fos.write(buffer);
             buffer = str2.getBytes();
            fos.write(buffer);
-        FileOutputStream fos1 = new FileOutputStream("C://papka/2.txt");
-        fos1.write(buffer);
+           FileOutputStream fos1 = new FileOutputStream("C://papka/2.txt");
+           fos1.write(buffer);
+           fos.close();
     }
 }
